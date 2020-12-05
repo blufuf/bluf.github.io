@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Suez+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+body, html {
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    background-color: gray;
+    font-family: Trebuchet MS, Helvetica;
+    
+}
+
+header{
+    width: 100%;
+    padding: 10px 0.5% 0px 0.5%;
+    background: transparent;
+    float: left;
+    position: fixed;
+        
+}
+header #logo{
+    color:wheat;
+    cursor: pointer;
+     
+}
+
+header #logo span {
+    font-size: 60px;
+    line-height: 75px;
+    margin-left: 30px;
+    font-family: 'Suez One', serif;
+}
+
+@media (min-width: 701px) {
+  #logo {
+    float: left;
+    width: 30%;
+    font-size: 1.1em;
+  }
+
+  #about {
+    float: center;
+    width: 70%;
+  }
+}
+
+@media (max-width: 700px) {
+  #logo {
+    margin-top: 15px;
+    width: 100%;
+    font-size: 1.5em;
+  }
+
+  #about {
+    float: left;
+    width: 100%;
+  }
+}
+
+#about {
+  text-align: center;
+  font-size: 18px;
+  line-height: 75px;
+  margin-bottom: 10px;
+    
+}
+
+#about > a {color: white}
+
+
+#about > a:hover{
+    color: darkgray;
+    text-decoration:none;
+
+}
+
+#about > a:not(:last-child){
+    margin-right: 7%;
+}
+
+.fixed {
+    z-index: 5000;
+    background-color: white;
+    border-bottom: 1px solid silver;
+}
+
+header.fixed #logo {
+    color: #343434;
+}
+
+.fixed #about a {color: #343434}
+.fixed #about a: hover {color: #7c7c7c} 
+
+/* div top (главный блок) */
+
+
+#top{
+    width: 100%;
+    height: 100%;
+    background-image: url(image/1.jpg);
+    background-blend-mode: multiply;
+    background-color: gray;
+    background-size: cover;
+    text-align: center;
+    color:white;
+}
+
+#top h1{
+    padding-top: 20% ;
+    font-size: 75px;
+    font-style: italic;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
