@@ -141,6 +141,7 @@ header.fixed #logo {
 
 #main div{
     width: 38%;
+    height: 100%;
     margin-right: 12%;
     float: left;    
 }
